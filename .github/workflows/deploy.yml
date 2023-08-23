@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    #  - uses: action/checkout@main
+    #  - uses: action/checkout@v2
 
       - name: Deploy Command
-        uses: D3rHase/ssh-command-action@v0.2.1
+        uses: appleboy/ssh-action@master
         with:
           # hostname / IP of the server
           host: ${{ secrets.SSH_HOST }}
