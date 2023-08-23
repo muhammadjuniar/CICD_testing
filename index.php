@@ -6,6 +6,6 @@
     <title>Test CI/CD</title>
 </head>
 <body>
-    <h2>Hello World! jadi 2 3 dan 4</h2>
+    <h2>Hello World! jadi 2 3 dan 4 5 6 7</h2>
 </body>
 </html>
