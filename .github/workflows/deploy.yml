@@ -25,5 +25,5 @@ jobs:
           port: 22
           # command to be executed
           script:
-            cd ~/var/www/CICD_testing
+            cd /var/www/CICD_testing
             git pull
